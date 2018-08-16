@@ -1,0 +1,434 @@
+body {
+  padding-top: 50px;
+  background: url(../images/night-city.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1{
+  font-family: "Alegreya", Helvetica, Arial, serif;
+}
+
+.navbar-inverse .navbar-brand,.navbar-inverse .navbar-nav>li>a {
+  color: #dfdfdf;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.container{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.container .jumbotron{
+  background-color: rgba(238, 238, 238, 0.7);
+}
+
+.jumbotron h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.navbar-nav{
+  float: right;
+}
+
+.navbar{
+  background-color: rgba(34, 34, 34, 0.6);
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: rgba(8, 8, 8, 0.6);
+}
+
+.navbar-header{
+  padding-left: 5px;
+}
+
+nav .container{
+  padding: 0 0 0 0;
+}
+
+.jumbotron p .personal-description{
+  font-size: 12px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+img{
+  display: block;
+  margin: auto;
+  width:75%;
+}
+
+img.profile-picture{
+  border: 2px solid blue;
+  border-radius: 6px;
+}
+
+img.recording-picture{
+  width:100%;
+  border:2px solid white;
+  border-radius: 6px;
+}
+
+.jumbotron-custom{
+  background-color: rgba(238, 238, 238, 0.7);
+  border-radius: 6px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+footer{
+  padding: 10px 0 10px 0;
+  color: white;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.facebook-responsive {
+    overflow:hidden;
+    padding-bottom:75%;
+    position:relative;
+    height:0;
+}
+
+.facebook-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.resume-container {
+    overflow:hidden;
+    padding-bottom:100%;
+    position:relative;
+    height:0;
+}
+
+.resume-container iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+h1.custom-header{
+  text-align: center !important;
+  color: #eeeeee !important;
+  border-bottom: 2px solid #eeeeee !important;
+  padding-bottom: 15px !important;
+  margin-bottom: 26px;
+}
+
+h1.custom-header-index{
+  text-align: center !important;
+  border-bottom: 2px solid !important;
+  padding-bottom: 15px !important;
+  margin-bottom: 26px;
+}
+
+.straight-line{
+  border-bottom: 2px solid;
+  height: 0;
+  width: 65%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.about{
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+.col-md-6{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.blank-space{
+  height: 20px;
+}
+
+.line-divider-audio{
+  border-bottom: 2px solid;
+  height: 0;
+  width: 75%;
+  margin-bottom: 30px;
+}
+
+.line-divider-video{
+  border-bottom: 2px solid;
+  height: 0;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+p.vid-p{
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+audio{
+  width:75%;
+}
+
+img.audio-cover{
+  margin: 20px 0 0 0;
+}
+
+pre{
+  display: none;
+}
+
+.covers-list{
+  display: none;
+  line-height: 2;
+}
+
+.covers-list, .content-list{
+    font-size: 17px;
+}
+
+.content-list{
+  margin-bottom: 8px;
+}
+
+#content{
+  color:black;
+  display: block;
+  margin:auto;
+}
+
+.logo{
+  width:70px;
+  margin-top: 20px;
+}
+
+.logo-body{
+  color: #eaeaea;
+  background: #5a5a5a; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, rgba(51, 51, 51, 0.8), rgba(101, 101, 101, 0.8)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(51, 51, 51, 0.8), rgba(101, 101, 101, 0.8)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(51, 51, 51, 0.8), rgba(101, 101, 101, 0.8)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(51, 51, 51, 0.9), rgba(101, 101, 101, 0.8)); /* Standard syntax */
+  border-radius: 6px;
+  display: block;
+  padding: 0.4px 0 1px 0;
+  margin: auto;
+  margin-left: 95px;
+  margin-right: 95px;
+}
+
+.logo-body>a{
+  color: #66c8e7;
+}
+
+.img-circle{
+  border: 2px solid #eaeaea;
+  width:65%;
+  margin-top: 10px;
+}
+
+.bg-gradient{
+  border-radius: 6px;
+  background: #5a5a5a; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, rgba(51, 51, 51, 0.8), rgba(101, 101, 101, 0.8)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(51, 51, 51, 0.8), rgba(101, 101, 101, 0.8)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(51, 51, 51, 0.8), rgba(101, 101, 101, 0.8)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(51, 51, 51, 0.9), rgba(101, 101, 101, 0.8)); /* Standard syntax */
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px 0 15px 0;
+}
+
+.umich{
+  font-family: "Open Sans";
+  font-weight: 200;
+  font-size:19px;
+  line-height:2;
+  color: #eaeaea;
+}
+
+.name{
+  font-size:28px;
+  margin-bottom:0;
+  margin-left:14%;
+  font-family: "Open Sans";
+  font-weight: 200;
+  line-height:2;
+  color: #eaeaea;
+}
+
+footer>img{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+}
+
+.contact-logo{
+  margin:5px 0 0 25%;
+}
+
+.titlez{
+  border: 6px double black;
+}
+
+.jumbotron.cov-list{
+   width: 50%;
+   margin: auto;
+   margin-bottom:0px;
+   padding: 5px 15px 5px 15px;
+   border:2px solid black;
+}
+
+@media (min-width: 1400px) {
+  .container{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cov-list{
+    padding: 0 0 0 0;
+  }
+  .contact-logo{
+    margin: auto;
+  }
+  .contact-disp{
+    text-align: center;
+  }
+  .name{
+    margin:0 0 0 0;
+    padding: 0;
+  }
+  .logo-body{
+    margin:0 18% 0 18%;
+  }
+  .img-circle{
+    margin-top: 60px;
+  }
+  .umich{
+    padding-top:5%;
+  }
+  .container{
+    padding: 0 20% 0 20%;
+  }
+  footer>img{
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .img-circle{
+    margin-top: 0px;
+  }
+  .line-divider-audio {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  img.audio-cover {
+    margin: 0 auto;
+  }
+  .covs{
+    text-align: center;
+  }
+  .umich{
+    padding-top:0;
+  }
+  .contact-disp{
+    text-align: center;
+  }
+  .logo-body{
+    margin:0 28% 0 28%;
+  }
+  .lyric{
+    margin-bottom: 20px
+  }
+  img.recording-picture{
+    width: 75%;
+    margin-right: 17%;
+    margin-bottom: 20px;
+  }
+  .container{
+    padding: 0 1% 0 10%;
+  }
+  .about{
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top:20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-body{
+    margin:0 27% 0 27%;
+  }
+  .lyric{
+    margin-bottom: 20px
+  }
+  img.recording-picture{
+    width: 75%;
+    margin-right: 13%;
+  }
+  .about{
+    padding-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+  }
+  .rec-pic{
+    padding-bottom: 20px;
+  }
+  .bg-gradient{
+    margin: auto;
+    padding: 2% 2% 2% 2%;
+  }
+  .container{
+    padding: 0 0 0 0;
+    width:90%;
+  }
+  .navbar-brand{
+    padding: 15px 30px;
+  }
+  .navbar-nav{
+    float: none;
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 594px) {
+  .jumbotron.cov-list{
+    width: 255px;
+  }
+}
